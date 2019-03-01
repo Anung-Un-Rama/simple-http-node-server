@@ -2,7 +2,7 @@
   "name": "simple-http-node-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +16,5 @@
     "url": "https://github.com/Anung-Un-Rama/simple-http-node-server/issues"
   },
   "homepage": "https://github.com/Anung-Un-Rama/simple-http-node-server#readme",
-  "dependencies": {
-    "express": "^4.16.4",
-    "fs": "0.0.1-security",
-    "https": "^1.0.0"
-  }
+  "dependencies": {}
 }
