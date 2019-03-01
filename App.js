@@ -1,14 +1,9 @@
-fs.writeFile('hello-world.txt','Hello to this great world', 'utf8');
-
 const http = require('http');
 const port = 3000;
 const fs = require('fs');
 
-var write = fs.writeFileSync('hello-world.txt','Hello to this great world', 'utf8');
-var read = fs.readFileSync('/hello-world.txt');
-
-
-const requestHandler = (write, read) => {
+const requestHandler = (request, response) => {
+  fs.writeFileSync('hello-world.txt','Hello to this great world', 'utf8');
   response.end(`Handling a request on port ${port}`)
 };
 
